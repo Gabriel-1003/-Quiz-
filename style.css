@@ -9,8 +9,8 @@ button {
 }
 
 body {
-  background-color: #121214;
-  color: #fff;
+  background-color: #1a1423;
+  color: #f0e6ff;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,14 +18,14 @@ body {
 }
 
 .container {
-  background-color: #121214;
+  background-color: #1a1423;
   width: 90%;
   max-width: 800px;
 
-  border: 2px solid #e1e1e6;
+  border: 2px solid #9d4edd;
   border-radius: 6px;
   padding: 16px;
-  box-shadow: 0 0 2px 2px;
+  box-shadow: 0 0 12px 2px rgba(157, 78, 221, 0.5);
 
   display: flex;
   flex-direction: column;
@@ -45,6 +45,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  color: #e0aaff;
 }
 
 .answers-container {
@@ -63,7 +64,7 @@ body {
 }
 
 .button {
-  background-color: #4863f7;
+  background-color: #7b2cbf;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -79,10 +80,10 @@ body {
   filter: brightness(0.8);
 }
 
-
 .final-message {
   font-size: 20px;
   text-align: center;
+  color: #e0aaff;
 }
 
 .final-message span {
@@ -96,9 +97,9 @@ body {
 }
 
 .correct {
-  background-color: #049b48;
+  background-color: #2a9d8f;
 }
 
 .incorrect {
-  background-color: #a10101;
+  background-color: #e63946;
 }
